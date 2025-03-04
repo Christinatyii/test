@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory0114"
+		},
+		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
+			"value": "https://blobstorage2025.blob.core.chinacloudapi.cn/"
+		},
+		"AzureBlobStoragelinked111_properties_typeProperties_serviceEndpoint": {
+			"value": "https://blobstorage2025.blob.core.chinacloudapi.cn/"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalakegen2.dfs.core.chinacloudapi.cn/"
+		},
+		"AzureDataLakeStoragelinked222_properties_typeProperties_url": {
+			"value": "https://datalakegen2.dfs.core.chinacloudapi.cn/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
