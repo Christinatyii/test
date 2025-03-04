@@ -1,0 +1,10 @@
+{
+	"name": "AzureDataLakeStoragelinked222",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://datalakegen2.dfs.core.chinacloudapi.cn/"
+		}
+	}
+}
