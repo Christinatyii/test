@@ -1,0 +1,28 @@
+{
+	"name": "csv1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragelinked111",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "copyresult",
+				"container": "container1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "a1",
+				"type": "String"
+			}
+		]
+	}
+}
