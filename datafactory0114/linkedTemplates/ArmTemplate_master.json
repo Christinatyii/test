@@ -11,6 +11,10 @@
 			"type": "string",
 			"defaultValue": "https://blobstorage2025.blob.core.chinacloudapi.cn/"
 		},
+		"AzureBlobStorage2_properties_typeProperties_serviceEndpoint": {
+			"type": "string",
+			"defaultValue": "https://blobstorage2025.blob.core.chinacloudapi.cn/"
+		},
 		"AzureBlobStoragelinked111_properties_typeProperties_serviceEndpoint": {
 			"type": "string",
 			"defaultValue": "https://blobstorage2025.blob.core.chinacloudapi.cn/"
@@ -52,6 +56,9 @@
 					},
 					"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
 						"value": "[parameters('AzureBlobStorage1_properties_typeProperties_serviceEndpoint')]"
+					},
+					"AzureBlobStorage2_properties_typeProperties_serviceEndpoint": {
+						"value": "[parameters('AzureBlobStorage2_properties_typeProperties_serviceEndpoint')]"
 					},
 					"AzureBlobStoragelinked111_properties_typeProperties_serviceEndpoint": {
 						"value": "[parameters('AzureBlobStoragelinked111_properties_typeProperties_serviceEndpoint')]"
