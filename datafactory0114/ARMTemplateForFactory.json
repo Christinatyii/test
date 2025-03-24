@@ -771,7 +771,7 @@
 						"     ignoreNoFilesFound: false) ~> source1",
 						"source1 aggregate(groupBy(name),",
 						"     age = sum(age)) ~> aggregate1",
-						"aggregate1 alterRow(updateIf(name==name)) ~> alterRow1",
+						"aggregate1 alterRow(upsertIf(name==name)) ~> alterRow1",
 						"alterRow1 sink(allowSchemaDrift: true,",
 						"     validateSchema: false,",
 						"     input(",
