@@ -5,8 +5,8 @@
 		"factoryName": {
 			"value": "datafactory0114"
 		},
-		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
-			"value": "https://blobstorage2025.blob.core.chinacloudapi.cn/"
+		"AzureSqlDatabase1_password": {
+			"value": ""
 		},
 		"AzureBlobStorage2_properties_typeProperties_serviceEndpoint": {
 			"value": "https://blobstorage2025.blob.core.chinacloudapi.cn/"
@@ -19,6 +19,15 @@
 		},
 		"AzureDataLakeStoragelinked222_properties_typeProperties_url": {
 			"value": "https://datalakegen2.dfs.core.chinacloudapi.cn/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "christinasql.database.chinacloudapi.cn"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "christinadb"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "sqladmin"
 		}
 	}
 }
