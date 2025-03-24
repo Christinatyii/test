@@ -208,7 +208,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "Userstest1"
+					"table": "Userstest2"
 				}
 			},
 			"dependsOn": [
